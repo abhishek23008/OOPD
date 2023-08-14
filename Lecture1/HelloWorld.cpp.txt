@@ -1,0 +1,19 @@
+#include <iostream>
+
+
+using namespace std;
+
+class SampleObj{
+public:
+	int Print(){
+		cout << "Hello World";
+	}
+	
+};
+
+
+int main(){
+	SampleObj obj1;
+	obj1.Print();
+return 0;
+}
